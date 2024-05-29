@@ -1,6 +1,12 @@
-package com.pluralsight;
+package com.pluralsight.models;
 
-class Order {
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.UUID;
+
+public class Order
+{
     private String id;
     private Date dateAndTime;
     private double totalCost;
@@ -8,7 +14,8 @@ class Order {
     private List<Drink> drinks;
     private List<Chips> chips;
 
-    public Order() {
+    public Order()
+    {
         this.id = UUID.randomUUID().toString();
         this.dateAndTime = new Date();
         this.sandwiches = new ArrayList<>();
@@ -17,19 +24,23 @@ class Order {
         this.totalCost = 0.0;
     }
 
-    public void addSandwich(Sandwich sandwich) {
+    public void addSandwich(Sandwich sandwich)
+    {
         sandwiches.add(sandwich);
     }
 
-    public void addDrink(Drink drink) {
+    public void addDrink(Drink drink)
+    {
         drinks.add(drink);
     }
 
-    public void addChips(Chips chip) {
+    public void addChips(Chips chip)
+    {
         chips.add(chip);
     }
 
-    public void checkout() {
+    public void checkout()
+    {
         totalCost = 0.0;
         for (Sandwich sandwich : sandwiches) {
             totalCost += sandwich.calculateCost();
@@ -42,19 +53,24 @@ class Order {
         }
     }
 
-    public void cancelOrder() {
+    public void cancelOrder()
+    {
         sandwiches.clear();
         drinks.clear();
         chips.clear();
         totalCost = 0.0;
     }
 
-    public double getTotalCost() {
+    public double getTotalCost()
+    {
         return totalCost;
     }
 
-    public Date getDateAndTime() {
+    public Date getDateAndTime()
+    {
         return dateAndTime;
     }
 }
+
+
 

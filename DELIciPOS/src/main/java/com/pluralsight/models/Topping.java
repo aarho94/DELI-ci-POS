@@ -1,6 +1,6 @@
-package com.pluralsight;
+package com.pluralsight.models;
 
-abstract class Topping {
+public abstract class Topping {
     private String name;
     private String type;
 

@@ -1,6 +1,11 @@
-package com.pluralsight;
+package com.pluralsight.models;
 
-class Chips implements Orderable {
+import com.pluralsight.interfaces.Orderable;
+
+import java.util.UUID;
+
+public class Chips implements Orderable
+{
     private String id;
     private String type;
     private double price;

@@ -1,6 +1,11 @@
-package com.pluralsight;
+package com.pluralsight.models;
 
-class Drink implements Orderable {
+import com.pluralsight.interfaces.Orderable;
+
+import java.util.UUID;
+
+public class Drink implements Orderable
+{
     private String id;
     private String size; // small, medium, large
     private String flavor;

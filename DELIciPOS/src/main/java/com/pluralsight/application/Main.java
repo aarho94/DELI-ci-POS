@@ -1,8 +1,9 @@
-package com.pluralsight;
+package com.pluralsight.application;
 
-import java.util.Date;
+import com.pluralsight.models.*;
 
 public class Main {
+
     public static void main(String[] args) {
         // Create a new order
         Order order = new Order();

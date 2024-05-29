@@ -1,6 +1,14 @@
-package com.pluralsight;
+package com.pluralsight.models;
 
-class Sandwich implements Orderable, Toppable {
+import com.pluralsight.interfaces.Orderable;
+import com.pluralsight.interfaces.Toppable;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
+
+public class Sandwich implements Orderable, Toppable
+{
     private String id;
     private Bread breadType;
     private int size; // 4, 8, or 12
