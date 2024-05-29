@@ -1,54 +1,66 @@
 package com.pluralsight;
 
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args) {
-        // Create products
-        Product whiteBread = new Product("White Bread", 5.50, "White bread", 100);
-        Product wheatBread = new Product("Wheat Bread", 5.50, "Wheat bread", 100);
-        Product ryeBread = new Product("Rye Bread", 5.50, "Rye bread", 100);
-        Product wrap = new Product("Wrap", 5.50, "Wrap", 100);
+        // Create a new order
+        Order order = new Order();
+        System.out.println("Order created at: " + order.getDateAndTime());
 
-        Meat steak = new Meat("Steak", 1.00);
-        Meat ham = new Meat("Ham", 1.00);
-        Meat salami = new Meat("Salami", 1.00);
-        Meat roastBeef = new Meat("Roast Beef", 1.00);
-        Meat chicken = new Meat("Chicken", 1.00);
-        Meat bacon = new Meat("Bacon", 1.00);
+        // Create bread types
+        Bread whiteBread = new Bread("white");
+        Bread wheatBread = new Bread("wheat");
 
-        Cheese americanCheese = new Cheese("American Cheese", 0.75);
-        Cheese provoloneCheese = new Cheese("Provolone Cheese", 0.75);
-        Cheese cheddarCheese = new Cheese("Cheddar Cheese", 0.75);
-        Cheese swissCheese = new Cheese("Swiss Cheese", 0.75);
+        // Create sandwiches
+        Sandwich sandwich1 = new Sandwich(whiteBread, 8, true);
+        Sandwich sandwich2 = new Sandwich(wheatBread, 12, false);
 
-        RegularTopping lettuce = new RegularTopping("Lettuce");
-        RegularTopping peppers = new RegularTopping("Peppers");
-        RegularTopping tomatoes = new RegularTopping("Tomatoes");
-        RegularTopping jalepenos = new RegularTopping("Jalepenos");
-        RegularTopping cucumbers = new RegularTopping("Cucumbers");
-        RegularTopping pickles = new RegularTopping("Pickles");
-        RegularTopping guacamole = new RegularTopping("Guacamole");
-        RegularTopping mushrooms = new RegularTopping("Mushrooms");
+        // Create toppings
+        Topping lettuce = new RegularTopping("Lettuce");
+        Topping tomato = new RegularTopping("Tomato");
+        Topping chicken = new Meat("Chicken");
+        Topping cheese = new Cheese("Cheddar");
+        Topping mayo = new Sauce("Mayo");
 
-        RegularTopping mayo = new RegularTopping("Mayo");
-        RegularTopping mustard = new RegularTopping("Mustard");
-        RegularTopping ketchup = new RegularTopping("Ketchup");
-        RegularTopping ranch = new RegularTopping("Ranch");
-        RegularTopping thousandIslands = new RegularTopping("Thousand Islands");
-        RegularTopping vinaigrette = new RegularTopping("Vinaigrette");
+        // Add toppings to sandwiches
+        sandwich1.addTopping(lettuce);
+        sandwich1.addTopping(tomato);
+        sandwich1.addTopping(chicken);
+        sandwich1.addTopping(mayo);
 
-        Drink smallDrink = new Drink("Small Drink", 2.00, "Small drink", 100, "Small");
-        Drink mediumDrink = new Drink("Medium Drink", 2.50, "Medium drink", 100, "Medium");
-        Drink largeDrink = new Drink("Large Drink", 3.00, "Large drink", 100, "Large");
+        sandwich2.addTopping(lettuce);
+        sandwich2.addTopping(tomato);
+        sandwich2.addTopping(cheese);
+        sandwich2.addTopping(mayo);
 
-        // Create a customer
-        Customer customer = new Customer("John Doe", "john.doe@example.com");
+        // Add sandwiches to the order
+        order.addSandwich(sandwich1);
+        order.addSandwich(sandwich2);
 
-        // Place orders
-        customer.placeOrder(whiteBread, 2);
-        customer.placeOrder(steak, 1);
-        customer.placeOrder(mediumDrink, 3);
+        // Create drinks
+        Drink drink1 = new Drink("small", "Cola", 1.5);
+        Drink drink2 = new Drink("large", "Lemonade", 2.5);
 
-        // View orders
-        customer.viewOrders();
+        // Add drinks to the order
+        order.addDrink(drink1);
+        order.addDrink(drink2);
+
+        // Create chips
+        Chips chips1 = new Chips("Classic", 1.0);
+        Chips chips2 = new Chips("BBQ", 1.2);
+
+        // Add chips to the order
+        order.addChips(chips1);
+        order.addChips(chips2);
+
+        // Checkout the order
+        order.checkout();
+        System.out.println("Total cost after checkout: $" + order.getTotalCost());
+
+        // Cancel the order
+        order.cancelOrder();
+        System.out.println("Order canceled. Total cost: $" + order.getTotalCost());
     }
 }
+
