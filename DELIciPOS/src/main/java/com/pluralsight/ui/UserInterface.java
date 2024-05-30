@@ -1,5 +1,6 @@
 package com.pluralsight.ui;
 
+import com.pluralsight.application.Order;
 import com.pluralsight.models.*;
 
 import java.util.Scanner;
@@ -189,7 +190,19 @@ public class UserInterface {
 
     private void checkout() {
         order.calculateCost();
-        updateOrderSummary();
+        System.out.println("Order Summary:");
+        System.out.println("Sandwiches:");
+        for (Sandwich sandwich : order.getSandwiches()) {
+            System.out.println(" - " + sandwich);
+        }
+        System.out.println("Drinks:");
+        for (Drink drink : order.getDrinks()) {
+            System.out.println(" - " + drink);
+        }
+        System.out.println("Chips:");
+        for (Chips chips : order.getChips()) {
+            System.out.println(" - " + chips);
+        }
         System.out.print("Total cost: $" + order.getTotalCost() + "\nDo you want to confirm the order? (yes/no): ");
         String response = scanner.nextLine();
         if (response.equalsIgnoreCase("yes")) {
