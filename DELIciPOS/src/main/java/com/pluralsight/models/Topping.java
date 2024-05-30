@@ -2,20 +2,16 @@ package com.pluralsight.models;
 
 public abstract class Topping {
     private String name;
-    private String type;
 
-    public Topping(String name, String type) {
+    public Topping(String name) {
         this.name = name;
-        this.type = type;
     }
 
     public String getName() {
         return name;
     }
 
-    public String getType() {
-        return type;
-    }
-
     public abstract double getPrice(int sandwichSize);
 }
+
+

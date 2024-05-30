@@ -2,11 +2,14 @@ package com.pluralsight.models;
 
 public class RegularTopping extends Topping {
     public RegularTopping(String name) {
-        super(name, "regular");
+        super(name);
     }
 
     @Override
     public double getPrice(int sandwichSize) {
-        return 0.0;
+        return 0.0; // Regular toppings are included
     }
 }
+
+
+
