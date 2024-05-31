@@ -1,6 +1,6 @@
 # DELI-ci-POS
 
-<img width="1198" alt="Screenshot 2024-05-31 at 1 47 59 PM" src="https://github.com/aarho94/DELI-ci-POS/assets/166449365/b88f5ac9-d56e-4fcd-b933-e899a7b836b5">
+<img width="909" alt="Screenshot 2024-05-31 at 2 04 52 PM" src="https://github.com/aarho94/DELI-ci-POS/assets/166449365/a2ceb0f8-a0f8-4d7e-bcf9-433d156bf3f6">
 
 
 **Step 1: Initial Planning and Setup**
