@@ -1,0 +1,18 @@
+Item,Type,Size/Type,Price
+Sandwich,wheat,12 inches,13.75
+Topping,chicken,12 inches,3.0
+Topping,marinara,12 inches,0.0
+Topping,pepper jack,12 inches,2.25
+Sandwich,white,8 inches,10.5
+Topping,Bacon,8 inches,2.0
+Topping,Cheddar,8 inches,1.5
+Topping,Lettuce,8 inches,0.0
+Topping,Tomato,8 inches,0.0
+Topping,Ranch,8 inches,0.0
+Sandwich,white,8 inches,10.5
+Topping,Steak,8 inches,2.0
+Topping,American,8 inches,1.5
+Topping,Peppers,8 inches,0.0
+Topping,Mayo,8 inches,0.0
+Chips,1 Chips,,1.5
+Total,,,36.25
