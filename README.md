@@ -79,4 +79,5 @@
  
 
 **HOME SCREEN**
+
 <img width="175" alt="Screenshot 2024-05-30 at 11 15 44 PM" src="https://github.com/aarho94/DELI-ci-POS/assets/166449365/bdbdf136-74ae-4c39-9cae-9f718bff4913">
