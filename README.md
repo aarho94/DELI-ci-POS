@@ -106,6 +106,10 @@
 
 <img width="241" alt="Screenshot 2024-05-30 at 11 23 34 PM" src="https://github.com/aarho94/DELI-ci-POS/assets/166449365/bc62e2e5-c42b-47ed-b89a-4dcf6428e06a">
 
+**RECEIPT OPENED IN NUMBERS**
+
+<img width="308" alt="Screenshot 2024-05-31 at 2 08 39 PM" src="https://github.com/aarho94/DELI-ci-POS/assets/166449365/d348fff4-c642-4eb7-9657-e9230cb2bcf3">
+
 A piece of code I found a lot of fun to implement was in the saveReceipt method in the Order class. This operation creates a "receipts" directory if it does not already exist to save a receipt to: 
 
 <img width="348" alt="Screenshot 2024-05-30 at 11 33 54 PM" src="https://github.com/aarho94/DELI-ci-POS/assets/166449365/86cfb867-5b45-4a74-807e-df472ff3c54e">
