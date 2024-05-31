@@ -81,3 +81,19 @@
 **HOME SCREEN**
 
 <img width="175" alt="Screenshot 2024-05-30 at 11 15 44 PM" src="https://github.com/aarho94/DELI-ci-POS/assets/166449365/bdbdf136-74ae-4c39-9cae-9f718bff4913">
+
+**ORDER SCREEN**
+
+<img width="167" alt="Screenshot 2024-05-30 at 11 17 25 PM" src="https://github.com/aarho94/DELI-ci-POS/assets/166449365/6dc839c2-56f2-46e7-9e5d-2e2c92cf1b43">
+
+**CHOOSE SANDWICH SCREEN**
+
+<img width="190" alt="Screenshot 2024-05-30 at 11 18 02 PM" src="https://github.com/aarho94/DELI-ci-POS/assets/166449365/d54c1a99-5700-41a3-b03e-8de4994c91e3">
+
+**ORDER SUMMARY**
+
+<img width="687" alt="Screenshot 2024-05-30 at 11 20 28 PM" src="https://github.com/aarho94/DELI-ci-POS/assets/166449365/35b77c9f-ec34-4eb9-9429-44cf4b78bdb4">
+
+**CHECKOUT CONFIRMATION**
+
+<img width="677" alt="Screenshot 2024-05-30 at 11 21 28 PM" src="https://github.com/aarho94/DELI-ci-POS/assets/166449365/fe552049-0394-47ee-a572-26f3f1e37cae">
