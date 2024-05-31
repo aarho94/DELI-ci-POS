@@ -109,3 +109,7 @@
 A piece of code I found a lot of fun to implement was in the saveReceipt method in the Order class. This operation creates a "receipts" directory if it does not already exist to save a receipt to: 
 
 <img width="348" alt="Screenshot 2024-05-30 at 11 33 54 PM" src="https://github.com/aarho94/DELI-ci-POS/assets/166449365/86cfb867-5b45-4a74-807e-df472ff3c54e">
+
+Additionally, in doing the bonus element of the project to create a shortcut for BLT and Philly Cheese Steak, it took me a while to figure out that extending from an abstract class for Signature Sandwiches (which extends Sandwich) would be a great way to do this, so figuring that out, was very satisfying. 
+
+<img width="615" alt="Screenshot 2024-05-30 at 11 41 06 PM" src="https://github.com/aarho94/DELI-ci-POS/assets/166449365/c797ed80-1d68-4d5d-957c-8985fb6121a6">
