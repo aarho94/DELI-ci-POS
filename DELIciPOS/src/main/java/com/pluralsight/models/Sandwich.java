@@ -1,7 +1,7 @@
 package com.pluralsight.models;
 
-import com.pluralsight.interfaces.Orderable;
-import com.pluralsight.interfaces.Toppable;
+import com.pluralsight.models.interfaces.Orderable;
+import com.pluralsight.models.interfaces.Toppable;
 
 import java.util.ArrayList;
 import java.util.List;

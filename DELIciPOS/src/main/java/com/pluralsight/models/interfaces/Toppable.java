@@ -1,4 +1,4 @@
-package com.pluralsight.interfaces;
+package com.pluralsight.models.interfaces;
 
 import com.pluralsight.models.Topping;
 

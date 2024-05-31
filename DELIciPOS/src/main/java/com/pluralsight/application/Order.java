@@ -1,6 +1,6 @@
 package com.pluralsight.application;
 
-import com.pluralsight.interfaces.Orderable;
+import com.pluralsight.models.interfaces.Orderable;
 import com.pluralsight.models.Chips;
 import com.pluralsight.models.Drink;
 import com.pluralsight.models.Sandwich;
