@@ -97,3 +97,7 @@
 **CHECKOUT CONFIRMATION**
 
 <img width="677" alt="Screenshot 2024-05-30 at 11 21 28 PM" src="https://github.com/aarho94/DELI-ci-POS/assets/166449365/fe552049-0394-47ee-a572-26f3f1e37cae">
+
+**TIME-STAMPED RECEIPT**
+
+<img width="241" alt="Screenshot 2024-05-30 at 11 23 34 PM" src="https://github.com/aarho94/DELI-ci-POS/assets/166449365/bc62e2e5-c42b-47ed-b89a-4dcf6428e06a">
